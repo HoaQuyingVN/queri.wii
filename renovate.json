@@ -2,5 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
-  ]
+  ],
+  "dependencyDashboard": true,
+  "commitBody": "[ci skip] Bumped %s to %s",
+  "dependencyDashboardTitle":"-> Dashboard Dependency and Package Versions"
 }
